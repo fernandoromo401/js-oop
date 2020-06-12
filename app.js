@@ -13,8 +13,8 @@ class UI {
     element.innerHTML = `
         <div class="text-center card mb-3">
             <div class="card-body">
-                <span>name: <strong>${people.name}</strong></span>
-                <span>lastname: <strong>${people.lastname}</strong></span>
+                <span><strong>${people.name}</strong></span>
+                <span><strong>${people.lastname}</strong></span>
                 <a href="#" name="delete" class="badge badge-danger text-ligth text-center float">DELETE</a>
             </div>
         </div>
